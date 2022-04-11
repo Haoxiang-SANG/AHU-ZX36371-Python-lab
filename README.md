@@ -1,8 +1,8 @@
-# 安徽大学 Python 程序设计仓库
+# 安徽大学 Python 程序设计实验课仓库
 
 author: 桑浩翔 (Haoxiang Sang)
 
-Lecturer: 汤进 (Jin Tang)
+Lecturer: 汤进 (Jin Tang)、倪莉 (Li Ni)
 
 Semester: 2021 - 2022, Spring
 
