@@ -2,7 +2,7 @@
 
 author: 桑浩翔 (Haoxiang Sang)
 
-Lecturers: 汤进 (Jin Tang, practice)、倪莉 (Li Ni, Theme)
+Lecturers: 汤进 (Jin Tang, practice)、倪莉 (Li Ni, theme)
 
 Semester: 2021 - 2022, Spring
 
