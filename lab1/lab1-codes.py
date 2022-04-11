@@ -14,13 +14,13 @@ def is_double(x):
 
 def calc(a, b, c):
 	delta = b * b - 4 * a * c
-	if delta == 0 :
+	if abs(delta) < 1e-6 :
 		#print("1", -b / (2 * a), sep = '\n')
 		return [-b / (2 * a)]
-	if delta > 0 :
+	elif delta > 0 :
 		#print("2", (-b - math.sqrt(delta)) / (2 * a), (-b + math.sqrt(delta)) / (2 * a), sep = '\n')
 		return [(-b - math.sqrt(delta)) / (2 * a), (-b + math.sqrt(delta)) / (2 * a)]
-	if delta < 0 :
+	elif delta < 0 :
 		#print("0")
 		return []
 
