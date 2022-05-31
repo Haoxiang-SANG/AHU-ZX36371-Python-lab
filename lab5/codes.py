@@ -9,7 +9,6 @@ x, y = mnist['data'], mnist['target']
 x_train, x_test, y_train, y_test = train_test_split(mnist['data'], mnist['target'], test_size = 1 / 7)
 
 x_draw, _, y_draw, _ = train_test_split(x_train, y_train, train_size = 32)
-
 for i in range(32):
 	plt.subplot(4, 8, i + 1)
 	plt.imshow([x_draw[i][j:j+28] for j in range(0, 784, 28)])
